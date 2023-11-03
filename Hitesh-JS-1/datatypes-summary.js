@@ -28,9 +28,34 @@ let myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof temp);
-console.log(typeof scorevalue);
-console.log(typeof myFunction);
-console.log(typeof myobj);
-console.log(typeof id);
+// console.log(typeof bigNumber);
+// console.log(typeof temp);
+// console.log(typeof scorevalue);
+// console.log(typeof myFunction);
+// console.log(typeof myobj);
+// console.log(typeof id);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myChannelName = "doSomeCoding"
+
+let anotherName = myChannelName
+anotherName = "hiteshChoudhary"
+
+console.log(myChannelName);
+console.log(anotherName);
+
+
+let userOne = {
+    name: "hassan",
+    email: "hassanAtTheRategmail.com"
+}
+let userTwo = userOne
+ 
+userTwo.email = "jallalAtTheRategmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
